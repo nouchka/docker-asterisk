@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  asterisk:
+    build: .
+    container_name: "asterisk"
+    volumes:
+      - ./conf/:/etc/asterisk/conf/
