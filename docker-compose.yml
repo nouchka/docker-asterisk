@@ -6,3 +6,4 @@ services:
     container_name: "asterisk"
     volumes:
       - ./conf/:/etc/asterisk/conf/
+    network_mode: "host"
