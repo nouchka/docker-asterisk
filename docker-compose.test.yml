@@ -4,3 +4,4 @@ services:
   sut:
     build: .
     image: nouchka/asterisk:latest
+    entrypoint: /bin/true
