@@ -2,8 +2,7 @@ version: '2'
 
 services:
   asterisk:
-    build: .
-    container_name: "asterisk"
+    image: nouchka/asterisk
     volumes:
       - ./conf/:/etc/asterisk/conf/
     network_mode: "host"

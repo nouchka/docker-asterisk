@@ -1,7 +1,7 @@
-FROM debian:wheezy
+FROM debian:jessie
 MAINTAINER Jean-Avit Promis "docker@katagena.com"
-LABEL org.label-schema.vcs-url="https://github.com/nouchka/docker-cloudflare-dyndns"
-LABEL version="1.1"
+LABEL org.label-schema.vcs-url="https://github.com/nouchka/docker-asterisk"
+LABEL version="latest"
 
 ENV DEBIAN_FRONTEND=noninteractive
 
